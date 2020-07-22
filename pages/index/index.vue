@@ -5,8 +5,11 @@
 			123
 			<text class="title">{{title}}</text>
 			<text class="title">{{title}}</text>
-			<text class="title">{{title}}</text>
-			<text class="title">{{title}}</text>
+			<text class="title">{{title}}
+			</text>
+		</view>
+		<view>
+			<text selectable class="title">{{title}}</text>
 		</view>
 	</view>
 </template>

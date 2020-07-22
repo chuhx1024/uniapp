@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/contact/index",
+    "pages/message/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "uni-app",
+    "titleBarColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/logo.png",
+        "activeIcon": "static/logo.png"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "name": "信息",
+        "icon": "static/logo.png",
+        "activeIcon": "static/logo.png"
+      },
+      {
+        "pagePath": "pages/contact/index",
+        "name": "我们",
+        "icon": "static/logo.png",
+        "activeIcon": "static/logo.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
