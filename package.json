@@ -1,15 +1,35 @@
 {
-	"uni-app": {  
-	    "scripts": {  
-	        "mp-dingtalk": {   
-	            "title":"钉钉小程序",   
-	            "env": {   
-	                "UNI_PLATFORM": "mp-alipay"   
-	            },  
-	            "define": {   
-	                "MP-DINGTALK": true   
-	            }  
-	        }  
-	    }  
-	}
+    "name": "uniapp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/var-chx/uniapp.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/var-chx/uniapp/issues"
+    },
+    "homepage": "https://github.com/var-chx/uniapp#readme",
+    "uni-app": {
+        "scripts": {
+            "mp-dingtalk": {
+                "title": "钉钉小程序",
+                "env": {
+                    "UNI_PLATFORM": "mp-alipay"
+                },
+                "define": {
+                    "MP-DINGTALK": true
+                }
+            }
+        }
+    },
+    "dependencies": {
+        "uview-ui": "^1.5.4"
+    }
 }

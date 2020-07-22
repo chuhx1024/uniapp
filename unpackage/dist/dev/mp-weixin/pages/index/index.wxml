@@ -1,1 +1,0 @@
-<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area">123<text class="title">{{title}}</text><text class="title">{{title}}</text><text class="title">{{title+''}}</text></view><view><text class="title" selectable="{{true}}">{{title}}</text></view></view>
